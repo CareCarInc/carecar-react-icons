@@ -28,7 +28,12 @@ export default {
       modules: true
     }),
     url(),
-    svgr({ icon: true }),
+    svgr({
+      icon: true,
+      svgProps: {
+        fill: 'currentColor'
+      }
+    }),
     babel({
       exclude: 'node_modules/**',
       plugins: [ 'external-helpers' ]
