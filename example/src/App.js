@@ -9,7 +9,8 @@ export default class App extends Component {
         {iconNames.map(name => (
           <li key={name}>
             <code>{name}</code>
-            <Icon icon={name} color="red" />
+            <Icon icon={name} color="darkblue" />
+            <Icon icon={name} color="violet" />
           </li>
         ))}
       </ul>
