@@ -1,10 +1,11 @@
 {
-  "name": "@carecar/react-icons",
+  "name": "@carecar/icons",
   "version": "0.1.0",
   "description": "CareCar SVG icons as React components",
   "author": "orther",
   "license": "MIT",
-  "repository": "AECareSupport/carecar-icons",
+  "repository": "AECareSupport/carecar-react-icons",
+  "homepage": "/carecar-react-icons/",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
