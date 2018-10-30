@@ -7,23 +7,27 @@
 ## Install
 
 ```bash
+yarn add @carecar/react-icons
+```
+
+```bash
 npm install --save @carecar/react-icons
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from '@carecar/react-icons'
+import {Icon} from '@carecar/react-icons'
 
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
+const IconExamples = () => (
+  <div>
+    <Icon icon="add-companion" color="darkblue" />
+    <Icon icon="driver" color="violet"/>
+    <Icon icon="trips" />
+  </div>
+);
 ```
 
 ## License
